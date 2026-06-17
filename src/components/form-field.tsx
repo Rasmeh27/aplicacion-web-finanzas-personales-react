@@ -24,7 +24,7 @@ export function FormField({
   onChange,
 }: FormFieldProps) {
   return (
-    <label className="block text-sm font-medium text-slate-800" htmlFor={name}>
+    <label className="block text-sm font-semibold text-[#101828]" htmlFor={name}>
       {label}
       <input
         id={name}
@@ -37,7 +37,7 @@ export function FormField({
         step={step}
         required={required}
         onChange={(event) => onChange(event.target.value)}
-        className="mt-2 h-11 w-full rounded-md border border-slate-300 bg-white px-3 text-sm outline-none transition focus:border-emerald-600 focus:ring-2 focus:ring-emerald-100"
+        className="mt-2 h-12 w-full rounded-lg border border-[#d0d5dd] bg-[#fbfcff] px-3 text-sm text-[#101828] outline-none transition placeholder:text-[#98a2b3] focus:border-[#3f2bd8] focus:bg-white focus:ring-4 focus:ring-[#ebe8ff]"
       />
     </label>
   );

@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen items-center justify-center bg-[#f5f7f4]">
-      <p className="text-sm text-slate-600">Preparando SmartWallet...</p>
+      <p className="text-sm text-slate-600">Preparando MONI...</p>
     </main>
   );
 }

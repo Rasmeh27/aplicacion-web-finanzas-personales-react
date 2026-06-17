@@ -2,7 +2,7 @@ import type { AuthResponse } from '@/types/api';
 
 const API_URL =
   process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:3001/api/v1';
-const SESSION_KEY = 'smartwallet-session';
+const SESSION_KEY = 'moni-session';
 
 interface StoredSession {
   accessToken: string;

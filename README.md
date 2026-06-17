@@ -1,6 +1,6 @@
-# SmartWallet Frontend MVP
+# MONI Frontend MVP
 
-Frontend oficial de SmartWallet construido con Next.js 16, React, TypeScript y Tailwind CSS.
+Frontend oficial de MONI construido con Next.js 16, React, TypeScript y Tailwind CSS.
 
 ## Requisitos
 
@@ -75,7 +75,7 @@ Login:
 }
 ```
 
-El frontend guarda `accessToken`, `refreshToken` y `user` en `localStorage` bajo la clave `smartwallet-session`.
+El frontend guarda `accessToken`, `refreshToken` y `user` en `localStorage` bajo la clave `moni-session`.
 
 ## Comportamiento esperado
 

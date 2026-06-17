@@ -68,7 +68,7 @@ export default function LoginPage() {
         />
         <button
           disabled={submitting}
-          className="flex h-11 w-full items-center justify-center gap-2 rounded-md bg-[#10241f] px-4 text-sm font-semibold text-white transition hover:bg-[#18382f] disabled:cursor-not-allowed disabled:opacity-60"
+          className="flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-[#3f2bd8] px-4 text-sm font-bold text-white shadow-lg shadow-indigo-200 transition hover:bg-[#2f20bf] disabled:cursor-not-allowed disabled:opacity-60"
           type="submit"
         >
           <LogIn size={18} />

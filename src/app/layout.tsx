@@ -10,8 +10,8 @@ const geistSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'SmartWallet | Finanzas personales',
-  description: 'Dashboard de finanzas personales conectado a SmartWallet API.',
+  title: 'MONI | Finanzas personales',
+  description: 'Dashboard de finanzas personales conectado a MONI API.',
 };
 
 export default function RootLayout({

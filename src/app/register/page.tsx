@@ -62,7 +62,7 @@ export default function RegisterPage() {
   return (
     <AuthShell
       title="Crear cuenta"
-      subtitle="Configura tu perfil base para que SmartWallet pueda calcular tus indicadores."
+      subtitle="Configura tu perfil base para que MONI pueda calcular tus indicadores."
       footerText="Ya tienes cuenta?"
       footerHref="/login"
       footerLabel="Iniciar sesion"
@@ -74,7 +74,7 @@ export default function RegisterPage() {
           label="Nombre completo"
           name="fullName"
           value={fullName}
-          placeholder="Usuario SmartWallet"
+          placeholder="Usuario MONI"
           onChange={setFullName}
         />
         <FormField
@@ -123,7 +123,7 @@ export default function RegisterPage() {
         </div>
         <button
           disabled={submitting}
-          className="flex h-11 w-full items-center justify-center gap-2 rounded-md bg-[#10241f] px-4 text-sm font-semibold text-white transition hover:bg-[#18382f] disabled:cursor-not-allowed disabled:opacity-60"
+          className="flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-[#3f2bd8] px-4 text-sm font-bold text-white shadow-lg shadow-indigo-200 transition hover:bg-[#2f20bf] disabled:cursor-not-allowed disabled:opacity-60"
           type="submit"
         >
           <UserPlus size={18} />

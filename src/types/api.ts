@@ -25,6 +25,10 @@ export interface Transaction {
   description?: string | null;
   date?: string;
   categoryId?: string | null;
+  category?: {
+    id: string;
+    name: string;
+  } | null;
   createdAt?: string;
 }
 
