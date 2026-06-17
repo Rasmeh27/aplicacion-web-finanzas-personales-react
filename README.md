@@ -1,10 +1,10 @@
 # SmartWallet Frontend MVP
 
-Frontend oficial de SmartWallet construido con Next.js 14, React, TypeScript y Tailwind CSS.
+Frontend oficial de SmartWallet construido con Next.js 16, React, TypeScript y Tailwind CSS.
 
 ## Requisitos
 
-- Node.js compatible con Next.js 14.
+- Node.js 20.9 o superior.
 - Backend corriendo en `http://localhost:3001`.
 - API base: `http://localhost:3001/api/v1`.
 
